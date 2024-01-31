@@ -103,6 +103,9 @@ function creatShelf () {
     return result;
 }
 
+const userInput = rs.question("Press Enter to continue...");
+console.log(creatShelf());""
+
 // Find book
 function findBookLocation(bookName) {
   const lowerCaseBookName = bookName.toLowerCase();
